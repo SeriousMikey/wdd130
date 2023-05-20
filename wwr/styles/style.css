@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans&family=Roboto&family=Roboto+Serif&family=Roboto+Slab&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a{
     text-align: center;
     color: #BA6B22;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -27,6 +30,10 @@ main section {
 
 body {
     background-color: #40327d;
+    font-family: 'Roboto Slab', 'Roboto Serif', Roboto;
+    margin: 0;
+    padding: 0;
+
 }
 
 header {
@@ -42,6 +49,10 @@ nav a:hover {
     background-color: #327646;
     color: #BA6B22;
     text-decoration: none;
+    font-size: 18px;
+    padding: 13px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 #background {
@@ -50,6 +61,8 @@ nav a:hover {
 
 .msg {
     background-color: #F5C645;
+    font-size: .8em;
+    padding: 35px;
 }
 
 footer {
@@ -59,6 +72,9 @@ footer {
 
 .home-title {
     color: #BA6B22;
+    font-family: 'Roboto Slab', 'Roboto Serif', Roboto;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -71,14 +87,18 @@ h4 {
 
 .msg h2{
     color: #BA6B22;
+    font-family: 'Roboto Slab', 'Roboto Serif', Roboto;
 }
 
 .msg p {
     color: #BA6B22;
+    padding-bottom: 15px;
 }
 
 footer {
     color: #BA6B22;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -92,6 +112,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -108,4 +129,29 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Roboto Slab', 'Roboto Serif', Roboto;
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: black 10px;
+}
+
+main section img {
+    box-sizing: border-box;
 }
