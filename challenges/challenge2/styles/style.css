@@ -1,0 +1,38 @@
+.main_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left_side {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+}
+
+.right_side {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(145, 145, 145);
+}
+
+.main_text {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-weight: bolder;
+    align-self: center;
+    display: block;
+}
+
+img {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.sub_text {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: rgb(147, 0, 0);
+    font-weight: bold;
+}
