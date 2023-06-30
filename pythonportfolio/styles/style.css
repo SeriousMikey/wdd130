@@ -7,11 +7,11 @@ body {
   margin: 0;
 }
 
-header, footer, h1 {
+header, footer, h2 {
   font-family: Lato, "Work Sans", Roboto;
 }
 
-h1 {
+h2 {
   color: #D1AC00;
   padding: 1em;
   background-color: #E2E2E2;
@@ -104,7 +104,7 @@ nav a:hover {
 
 /* FAQ */
 
-#faq h1 {
+#faq h2 {
   margin-bottom: 50px;
 }
 
@@ -177,7 +177,7 @@ footer .logo {
   max-width: 170px;
 }
 
-footer h1 {
+footer h2 {
   background-color: #D1AC00;
   color: #171717;
   border: 0;
