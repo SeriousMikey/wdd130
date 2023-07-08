@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="accordion_styles.css">
+    <script src="accordion_js.js" type="text/javascript"></script>
+</head>
+<body>
+    <button class="accordion">Don't Click Me</button>
+    <div class="panel">
+      <p>How could you!!</p>
+    </div>
+    
+    <button class="accordion">Click Me</button>
+    <div class="panel">
+      <p>At least you can follow instructions.</p>
+    </div>
+    
+    <button class="accordion">Click Me If You Like Ducks</button>
+    <div class="panel">
+      <p>Quack</p>
+    </div>
+
+    <button class="accordion">Don't Click Me If You Don't Want To</button>
+    <div class="panel">
+      <p>Does that mean you want to see me?</p>
+    </div>
+
+    <button class="accordion">Click Me If You Want...</button>
+    <div class="panel">
+      <p>...me to finish my sentence</p>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+</body>
+</html>

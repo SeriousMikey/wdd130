@@ -1,0 +1,38 @@
+.accordion {
+    background-color: #00c0a9;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 5px;
+  }
+  
+.active, .accordion:hover {
+background-color: #018979;
+}
+
+.panel {
+padding: 0 18px;
+background-color: #00edd1;
+display: none;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+margin-bottom: 5px;
+color: #000000
+}
+
+.accordion:after {
+content: '\02795';
+font-size: 13px;
+color: #ffffff;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2796";
+}
