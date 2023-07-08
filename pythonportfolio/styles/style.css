@@ -94,9 +94,9 @@ nav a:hover {
   align-self: center;
 }
 
-/* Python Book Image */
+/* Several Images */
 
-.python_book {
+.python_book, .image_desc img, .bottom_img {
   display: block;
   max-width: 50%;
   margin: 75px auto;
@@ -186,6 +186,38 @@ footer h2 {
 
 footer a {
   text-decoration: underline #171717;
+}
+
+.image_desc p {
+  max-width: 50%;
+  text-align: center;
+}
+
+#file_downloads {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+
+.python_file {
+  margin: 50px;
+}
+
+.python_file img {
+  background-color: #E2E2E2;
+}
+
+.python_file h3 {
+  text-align: center;
+  color: #D1AC00;
+  background-color: #E2E2E2;
+  border: 3px solid #171717;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 900px) {
